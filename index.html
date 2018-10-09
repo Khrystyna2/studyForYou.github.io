@@ -8,7 +8,8 @@
     <title>Study For You</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- fonts -->
-    
+    <link href="https://fonts.googleapis.com/css?family=Exo+2:300,400,500,600,700|Roboto:300,300i,400,500,700&amp;subset=cyrillic,greek"
+        rel="stylesheet">
     <!-- style bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- slick style -->
@@ -20,17 +21,135 @@
 
 <body>
     <header class="header">
+        <div class="top-line"></div>
         <div class="container">
             <div class="row">
-            
+                <div class="col-12">
+                    <div class="top-wrap d-flex">
+                        <a href="#" class="logo">
+                            <img src="img/index/logo.svg" alt="">
+                        </a>
+                        <p class="logo-text">Портал пошуку освітніх пропозицій у вашій країчи чи за її межами</p>
+                        <div class="lang">
+                            <form action="" id="language">
+                                <ul class="language">
+                                    <li>
+                                        <a href="#">
+                                            <img src="icons/ukraine.svg" alt=""> Українська
+                                            <span><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+                                        </a>
+                                        <ul style="display: none;">
+                                            <li>
+                                                <a href="#">
+                                                    <img src="icons/russia.svg" alt=""> Ru
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="#">
+                                                    <img src="icons/united-kingdom.svg" alt=""> En
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <input type="hidden" name="code" value="">
+                                <input type="hidden" name="redirect" value="">
+                            </form>
+                        </div>
+                        <a href="#" class="btn-exit border-red">Особистий кабінет</a>
+                    </div>
+                    <div class="bottom-wrap d-flex">
+                        <a href="#" class="btn-blue">Каталог освітніх пропозицій</a>
+                        <nav class="top-menu">
+                            <ul class="menu">
+                                <li class="menu-down"><span>Про нас</span>
+                                    <div class="sub-menu about-us">
+                                        <div class="sub-menu__box">
+                                            <ul>
+                                                <li><a href="#">Про StudyForYou</a></li>
+                                                <li><a href="#">Наші проекти</a></li>
+                                                <li><a href="#">Відгуки</a></li>
+                                                <li><a href="#">Вакансії</a></li>
+                                            </ul>
+                                            <ul class="social-icons">
+                                                <li><a href="#"><img src="icons/twitter.svg" alt="twitter"></a></li>
+                                                <li><a href="#"><img src="icons/you-tube.svg" alt="you-tube"></a></li>
+                                                <li><a href="#"><img src="icons/instagram.svg" alt="instagram"></a></li>
+                                                <li><a href="#"><img src="icons/facebook.svg" alt="facebook"></a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="menu-down"><span>Послуги</span>
+                                    <div class="sub-menu">
+                                        <div class="sub-menu__box">
+                                            <ul>
+                                                <li><a href="#">Вища освіта</a></li>
+                                                <li><a href="#">Медична освіта</a></li>
+                                                <li><a href="#">Середня освіта</a></li>
+                                                <li><a href="#">Підготовчі програми</a></li>
+                                            </ul>
+                                            <ul>
+                                                <li><a href="#">Мовні курси</a></li>
+                                                <li><a href="#">Освітні табори</a></li>
+                                                <li><a href="#">Освітні тури</a></li>
+                                                <li><a href="#">Гранти/Стипендії/Знижки</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="#">Галерея</a></li>
+                                <li><a href="#">Статті/Новини</a></li>
+                                <li><a href="#">Контакти</a></li>
+                                <li><a href="#">Партнерам</a></li>
+                            </ul>
+                        </nav>
+                        <ul class="social-icons d-flex">
+                            <li><a href="#"><img src="icons/twitter.svg" alt="twitter"></a></li>
+                            <li><a href="#"><img src="icons/you-tube.svg" alt="you-tube"></a></li>
+                            <li><a href="#"><img src="icons/instagram.svg" alt="instagram"></a></li>
+                            <li><a href="#"><img src="icons/facebook.svg" alt="facebook"></a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </header>
     <main>
-        <div class="container">
-            <div class="row">
+        <section class="banner-index">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-5 offset-md-1">
+                        <h1 class="title-header">Портал пошуку освітніх пропозицій</h1>
+                        <p class="text-header">Здійсніть свою мрію та знайдіть освітню пропозицію для себе!</p>
+                    </div>
+                    <div class="col-12 col-md-10 offset-md-1">
+                        <div class="box-image d-flex">
+                            <a href="#" class="image">
+                                <img src="img/index/image-1.png" alt="">
+                                <div class="image__title"><span>Університети</span></div>
+                            </a>
+                            <a href="#" class="image">
+                                <img src="img/index/image-2.png" alt="">
+                                <div class="image__title"><span>Бакалаврат</span></div>
+                            </a>
+                            <a href="#" class="image">
+                                <img src="img/index/image-3.png" alt="">
+                                <div class="image__title"><span>Магістратура</span></div>
+                            </a>
+                            <a href="#" class="image">
+                                <img src="img/index/image-4.png" alt="">
+                                <div class="image__title"><span>Середня освіта</span></div>
+                            </a>
+                            <a href="#" class="image">
+                                <img src="img/index/image-5.png" alt="">
+                                <div class="image__title"><span>Підготовчі курси</span></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+        </section>
     </main>
     <footer>
         <div class="container">
