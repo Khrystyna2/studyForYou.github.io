@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    padding: 0;
+    margin: 0;
+}
+
+ul, ol, li{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+button{
+    padding: 0;
+    margin: 0;
+}
+
+button:focus,
+input:focus,
+select:focus{
+    outline: none;
+}
+
+a:hover{
+    color: inherit;
+}
+
+html {
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    background-color: #fff;
+    overflow-x: hidden;
+}
