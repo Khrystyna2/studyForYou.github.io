@@ -7,7 +7,7 @@
     line-height: 0;
 
     position: absolute;
-    bottom: -20px;
+    top: 50%;
 
     display: block;
 
@@ -24,7 +24,6 @@
     border: none;
     outline: none;
     background: transparent;
-    z-index: 1;
 }
 .slick-prev:hover,
 .slick-prev:focus,
@@ -54,47 +53,41 @@
     line-height: 1;
 
     opacity: 1;
-    color: white;
+    color: #8B8B8B;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
-.slick-prev
+.slick-prev,
+.slick-next
 {
     right: 79px;
-    width: 70px;
-    height: 100px;
+    width:35px;
+    height: 35px;
+    border: 1px solid #8B8B8B;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    right: -40px;
+}
+
+.slick-prev{
+    left: -40px;
 }
 
 .slick-prev:before
 {
-    content: '';
-    background: url(../img/arrow-left-slider.png) no-repeat center center;
-    background-size: contain;
-    width: 70px;
-    height: 100px;
-    position: absolute;
-    top: 0;
-    right: 0;
+    content: '\f104';
+    font-family: 'FontAwesome';
 }
 
-.slick-next
-{
-    right: 25px;
-    width: 70px;
-    height: 100px;
-}
 .slick-next:before
 {
-    content: '';
-    background: url(../img/arrow-right-slider.png) no-repeat center center;
-    background-size: contain;
-    width: 70px;
-    height: 100px;
-    position: absolute;
-    top: 0;
-    left: 0;
+    content: '\f105';
+    font-family: 'FontAwesome';
 }
 
 
