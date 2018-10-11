@@ -128,6 +128,15 @@ body {
     font-weight: 600;
     text-transform: uppercase;
     margin-left: 80px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.btn-exit:hover {
+    color: #D80027;
 }
 
 .btn-exit img {
@@ -227,6 +236,15 @@ body {
 
 .sub-menu ul li a {
     text-transform: none;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.sub-menu ul li a:hover {
+    color: #F4343D;
 }
 
 .sub-menu .social-icons {
@@ -241,7 +259,30 @@ body {
 
 .sub-menu .social-icons li a {
     width: 26px;
+    height: 26px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
 }
+.sub-menu .social-icons li a:hover {
+    background-color: #41ABE1;
+}
+
+.sub-menu .social-icons li a:hover svg {
+    fill: #fff;
+}
+
 
 .social-icons li {
     margin-left: 21px;
@@ -249,11 +290,36 @@ body {
 
 .social-icons li a {
     width: 35px;
-    display: block;
+    height: 35px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+.social-icons li a:hover {
+    background-color: #2081F3;
 }
 
-.social-icons li a img {
-    width: 100%;
+.social-icons li a svg {
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.social-icons li a:hover svg {
+    fill: #fff;
 }
 
 /* section banner-index */
@@ -321,6 +387,16 @@ body {
     font-family: 'Exo 2', sans-serif;
     text-align: center;
     line-height: 54px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.image:hover .image__title {
+    background-color: #F4343D;
+    color: #fff;
 }
 
 .image__title span {
@@ -401,6 +477,16 @@ body {
     border-top-left-radius: 2px;
     border-bottom-left-radius: 2px;
     width: 387px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.input-group input:hover {
+    border: 1px solid #9F9F9F;
+    border-right: none;
 }
 
 .input-group input[type="email"]::placeholder {
@@ -419,6 +505,15 @@ body {
     cursor: pointer;
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.input-group > button:hover {
+    background-color: #D80027;
 }
 
 .send-email__text {
@@ -433,6 +528,27 @@ body {
 
 .send-email__icon li {
     margin-right: 21px;
+    position: relative;
+    width: 35px;
+}
+
+.send-email__icon a img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: .3s;
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -ms-transition: .3s;
+    -o-transition: .3s;
+}
+
+.send-email__icon a img:last-of-type {
+    opacity: 0;
+}
+
+.send-email__icon li:hover a img:last-of-type {
+    opacity: 1;
 }
 
 /* section news */
@@ -539,6 +655,16 @@ body {
     font-size: 18px;
     line-height: 25px;
     padding-bottom: 6px;
+    color: #000;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.news__desc_title:hover {
+    color: #2081F3;
 }
 
 .date {
@@ -584,6 +710,11 @@ body {
 
 .content-slider__title {
     align-items: center;
+    color: #000;
+}
+
+.content-slider__title:hover {
+    color: #2081F3;
 }
 
 .content-slider__img {
@@ -736,10 +867,15 @@ body {
 
 .footer-menu__box ul > li a {
     color: #fff;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
 }
 
-.footer-menu__box ul > li a:hover {
-    text-decoration: underline;
+.footer-menu__box ul li a:hover {
+    color: #D80027;
 }
 
 ul.footer-icons > li {
@@ -748,11 +884,46 @@ ul.footer-icons > li {
 
 .footer-icons li > a {
     text-transform: uppercase;
+    width: 28px;
+    height: 28px;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+    position: relative;
+    margin-right: 40px;
 }
 
-.footer-icons li > a > img {
-    width: 28px;
-    margin-right: 18px;
+ul.footer-icons li > a:hover {
+    background-color: #2081F3;
+    color: #2081F3;
+}
+
+.footer-icons li > a svg {
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.footer-icons li > a:hover svg {
+    fill: #fff;
+}
+
+.footer-icons li > a span{
+    position: absolute;
+    left: 45px;
 }
 
 .copyright {

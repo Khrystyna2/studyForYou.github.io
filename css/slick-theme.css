@@ -26,18 +26,25 @@
     background: transparent;
 }
 .slick-prev:hover,
-.slick-prev:focus,
-.slick-next:hover,
-.slick-next:focus
+.slick-next:hover
 {
     color: transparent;
     outline: none;
     background: transparent;
+    border: 1px solid #2081F3;
 }
+.slick-next:focus,
+.slick-prev:focus {
+    color: transparent;
+    outline: none;
+    background: transparent;
+}
+
 .slick-prev:hover:before,
 .slick-next:hover:before
 {
-    opacity: 0.8;
+    opacity: 1;
+    color: #2081F3;
 }
 .slick-prev.slick-disabled:before,
 .slick-next.slick-disabled:before
