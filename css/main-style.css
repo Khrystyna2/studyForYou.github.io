@@ -130,6 +130,10 @@ body {
     margin-left: 80px;
 }
 
+.btn-exit img {
+    display: none;
+}
+
 .btn-exit:hover {
     text-decoration: none;
 }
@@ -162,6 +166,10 @@ body {
 
 .menu {
     display: flex;
+}
+
+.btn-menu {
+    display: none;
 }
 
 .menu > li {
@@ -261,6 +269,7 @@ body {
     line-height: 58px;
     font-weight: 700;
     margin-top: 125px;
+    text-transform: uppercase;
 }
 
 .text-header {
@@ -297,7 +306,6 @@ body {
 
 .image:hover {
     text-decoration: none;
-    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.1);
 }
 
 .image img {
@@ -1066,6 +1074,358 @@ ul.footer-icons > li {
     }
 }
 
+@media only screen and (max-width: 767.5px) {
+
+    .top-wrap {
+        justify-content: space-between;
+        margin-top: 14px;
+    }
+
+    .lang {
+        margin-left: 0;
+        position: absolute;
+        left: 60%;
+        top: 79px;
+        z-index: 2;
+        width: auto;
+        height: auto;
+    }
+
+    .language a > span {
+        display: none;
+    }
+
+    .btn-exit span {
+        display: none;
+    }
+
+    .btn-exit img {
+        display: block;
+    }
+
+    .btn-exit {
+        width: auto;
+        margin-left: 0;
+        height: auto;
+    }
+
+    .btn-exit.border-red {
+        border: none;
+    }
+
+    .top-line {
+        bottom: 31px;
+    }
+
+    .btn-blue {
+        width: 160px;
+        height: 31px;
+        margin-right: 15px;
+        font-size: 9px;
+        line-height: normal;
+        padding-top: 12px;
+    }
+
+    .btn-menu {
+        display: block;
+    }
+
+    .bottom-wrap {
+        justify-content: space-between;
+        position: relative;
+        margin-top: 14px;
+    }
+
+    .menu {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        width: 100%;
+        top: 100%;
+        right: 0;
+        z-index: 1;
+        padding-left: 30px;
+    }
+
+    .menu > li {
+        margin-right: 20px;
+        height: auto;
+        margin: 14px 0;
+    }
+
+    .sub-menu {
+        position: relative;
+        background-color: #FBFBFB;
+        box-shadow: 0 0 0 0;
+        width: 80%;
+        display: none;
+        z-index: 1;
+    }
+
+    .title-header {
+        font-size: 30px;
+        line-height: 34px;
+        width: 65%;
+        margin-top: 40px;
+    }
+
+    .text-header {
+        font-size: 16px;
+        line-height: 20px;
+        width: 55%;
+    }
+
+    .box-image {
+        margin-top: 35px;
+    }
+
+    .service__title {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .our-service__content h4 {
+        font-size: 15px;
+        margin-top: 14px;
+    }
+
+    .our-service__content {
+        width: 200px;
+        font-size: 12px;
+    }
+
+    .send-email__title {
+        font-size: 23px;
+        line-height: 30px;
+    }
+
+    .input-group > button {
+        width: 155px;
+    }
+
+    .input-group input {
+        width: 350px;
+    }
+
+    .content-slider__desc h5 {
+        font-size: 14px;
+    }
+
+    .content-slider__desc span {
+        font-size: 13px;
+    }
+
+    .content-slider__img {
+        width: 70px;
+        height: 70px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+
+    .content-slider__text {
+        font-style: italic;
+        padding-bottom: 5px;
+        font-size: 13px;
+    }
+
+    .universities__desc {
+        padding-top: 0;
+        padding-left: 20px;
+        display: flex;
+        flex-flow: column;
+        justify-content: flex-end;
+    }
+
+    .footer-content {
+        flex-flow: column;
+    }
+
+    .footer-menu__box ul:first-of-type {
+        margin-right: 70px;
+    }
+
+    .footer-menu__box, .footer-menu__box.column {
+        margin-left: 0;
+        flex-flow: row;
+    }
+
+    .footer-menu {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .footer-content {
+        padding-bottom: 18px;
+    }
+
+    .footer {
+        padding: 35px 0;
+    }
+
+    .logo-bottom {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    .lang {
+        left: 63%;
+    }
+
+    .sub-menu.about-us {
+        width: 250px;
+    }
+
+    .sub-menu.about-us .sub-menu__box {
+        display: flex;
+    }
+
+    .sub-menu ul:first-of-type {
+        padding-bottom: 0;
+    }
+
+    .sub-menu .sub-menu__box {
+        display: block;
+    }
+
+    .title-header {
+        font-size: 23px;
+        line-height: 28px;
+        width: 290px;
+        margin-top: 40px;
+    }
+
+    .text-header {
+        font-size: 15px;
+        line-height: 20px;
+        width: 290px;
+    }
+
+    .image__title {
+        height: 38px;
+        font-size: 12px;
+        line-height: 38px;
+    }
+
+    .service__title {
+        font-size: 17px;
+        line-height: 20px;
+        width: 175px;
+        margin: 0 auto;
+    }
+
+    .service, .news, .universities,
+    .slider {
+        padding: 35px 0;
+    }
+
+    .our-service {
+        margin-top: 15px;
+        align-items: flex-start;
+    }
+
+    .our-service__content img{
+        width: 45px;
+        height: 35px;
+    }
+
+    .our-service__content h4 {
+        font-size: 13px;
+        margin-top: 14px;
+    }
+
+    .our-service__content {
+        width: 180px;
+        font-size: 11px;
+    }
+
+    .send-email__title {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .input-group input {
+        width: 100%;
+    }
+
+    .input-group > button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .universities .service__title {
+        width: 100%;
+        margin-bottom: 22px;
+    }
+
+    .img-universities {
+        margin-bottom: 20px;
+    }
+
+    .slider-first {
+        display: flex;
+        width: 350px;
+        margin: 0 auto;
+    }
+
+    .content-slider,  .content-slider:last-of-type,
+    .content-slider:nth-of-type(3n) {
+        border-right: none;
+    }
+
+    .slick-prev, .slick-next {
+        background: #fff;
+        opacity: 0.8;
+        z-index: 2;
+    }
+
+    .slick-next {
+        right: 0;
+    }
+    
+    .slick-prev {
+        left: 0;
+    }
+
+    .logo-bottom .logo {
+        width: 160px;
+    }
+
+    .footer-menu__title {
+        font-size: 17px;
+    }
+
+    .footer-menu__box ul:first-of-type {
+        margin-right: 40px;
+        width: 46%;
+    }
+
+    .footer::before {
+        bottom: 185px;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .box-image {
+        margin-top: 35px;
+        max-height: 315px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .our-service__content {
+        width: 42%;
+        font-size: 11px;
+        margin: 0 10px 14px;
+    }
+
+    .slider-first {
+        display: flex;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
 @media only screen and (min-width: 1400px) {
     .container {
         max-width: 1380px;

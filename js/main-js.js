@@ -13,7 +13,7 @@ $(document).ready(function() {
   }
   if ($(window).width() <= 1024) {
     $('.menu-down').click(function () {
-      $(this).find('.sub-menu').fadeToggle(200);
+      $(this).find('.sub-menu').slideToggle(200);
     });
   }
 
@@ -27,6 +27,12 @@ $(document).ready(function() {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2
+        }
+      },{
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
         }
       }
     ]
@@ -46,7 +52,27 @@ $(document).ready(function() {
           slidesToScroll: 1,
           infinite: true,
           centerMode: true,
-          centerPadding: '60px'
+          centerPadding: '30px'
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1,
+          infinite: true,
+          centerMode: true,
+          centerPadding: '40px'
+        }
+      },
+      {
+        breakpoint: 450,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          centerMode: true,
+          centerPadding: '40px'
         }
       }
     ]
@@ -67,7 +93,21 @@ $(document).ready(function() {
           infinite: true
         }
       }
+      ,{
+        breakpoint: 550,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          infinite: true,
+          centerMode: true,
+          centerPadding: '40px'
+        }
+      }
     ]
+  });
+
+  $('.btn-menu').click(function() {
+    $('.menu').slideToggle();
   });
 
  

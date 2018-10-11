@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    <header class="header">
+    <header id="header" class="header">
         <div class="top-line"></div>
         <div class="container">
             <div class="row">
@@ -35,18 +35,19 @@
                                 <ul class="language">
                                     <li>
                                         <a href="#">
-                                            <img src="icons/ukraine.svg" alt=""> Українська
-                                            <span><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+                                            <img src="icons/ukraine.svg" alt="">
+                                            <span>Українська</span> 
+                                            <i class="fa fa-angle-down" aria-hidden="true"></i>
                                         </a>
                                         <ul style="display: none;">
                                             <li>
                                                 <a href="#">
-                                                    <img src="icons/russia.svg" alt=""> Ru
+                                                    <img src="icons/russia.svg" alt=""><span>Ru</span> 
                                                 </a>
                                             </li>
                                             <li>
                                                 <a href="#">
-                                                    <img src="icons/united-kingdom.svg" alt=""> En
+                                                    <img src="icons/united-kingdom.svg" alt=""><span>En</span> 
                                                 </a>
                                             </li>
                                         </ul>
@@ -56,11 +57,12 @@
                                 <input type="hidden" name="redirect" value="">
                             </form>
                         </div>
-                        <a href="#" class="btn-exit border-red">Особистий кабінет</a>
+                        <a href="#" class="btn-exit border-red"><img src="img/index/user-icon.svg" alt=""> <span>Особистий кабінет</span></a>
                     </div>
                     <div class="bottom-wrap d-flex">
                         <a href="#" class="btn-blue">Каталог освітніх пропозицій</a>
                         <nav class="top-menu">
+                            <div class="btn-menu"><img src="img/index/menu-icon.svg" alt=""></div>
                             <ul class="menu">
                                 <li class="menu-down"><span>Про нас</span>
                                     <div class="sub-menu about-us">
@@ -568,7 +570,7 @@
             </div>
         </section>
     </main>
-    <footer class="footer">
+    <footer id="footer" class="footer">
         <div class="container">
             <div class="row">
                 <div class="col-12 col-xl-11 offset-xl-1">
