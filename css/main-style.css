@@ -147,8 +147,12 @@ body {
     text-decoration: none;
 }
 
-.bottom-wrap {
+.header-menu {
     margin-top: 22px;
+    background-color: #fff;
+}
+
+.bottom-wrap {
     align-items: center;
     -moz-box-align: center;
     -ms-flex-align: center;
@@ -171,6 +175,16 @@ body {
 .btn-blue:hover {
     color: #fff;
     text-decoration: none;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    margin-top: 0;
+    z-index: 2;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .menu {
@@ -1301,10 +1315,17 @@ ul.footer-icons li > a:hover {
         display: block;
     }
 
+    .header-menu {
+        margin-top: 14px;
+    }
+
+    .sticky {
+        position: static;
+    }
+
     .bottom-wrap {
         justify-content: space-between;
         position: relative;
-        margin-top: 14px;
     }
 
     .menu {

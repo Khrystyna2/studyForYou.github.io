@@ -21,6 +21,7 @@ $(document).ready(function() {
     infinite: false,
     slidesToShow: 3,
     slidesToScroll: 3,
+    speed: 1000,
     responsive: [
       {
         breakpoint: 992,
@@ -108,6 +109,20 @@ $(document).ready(function() {
 
   $('.btn-menu').click(function() {
     $('.menu').slideToggle();
+  });
+
+//fixed menu
+  let heightHeader = $('.header-menu').outerHeight(true);
+  $('<div class="clone-header-menu"></div>').insertBefore('.header-menu').css('height', heightHeader).hide();
+  $(window).scroll(function(){
+    let winTop = $(window).scrollTop();
+    if(winTop >= 100){
+      $(".header-menu").addClass("sticky");
+      $('.clone-header-menu').show();
+    }else{
+      $(".header-menu").removeClass("sticky");
+      $('.clone-header-menu').hide();
+    }
   });
 
  
