@@ -417,6 +417,7 @@ main.about-us,
         padding: 20px;
         margin-bottom: 20px;
         margin-top: 20px;
+        display: none;
     }
 
     .reviews .content-slider__img {
@@ -432,6 +433,18 @@ main.about-us,
 
     .reviews .content-slider__desc span {
         font-size: 13px;
+    }
+
+    .image-about-us {
+        display: none;
+    }
+
+    .projects .subtitle-section {
+        margin-top: 20px;
+    }
+
+    .title-section {
+        margin-top: 20px;
     }
 }
 
