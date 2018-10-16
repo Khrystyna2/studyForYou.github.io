@@ -231,6 +231,102 @@ main.about-us,
     color: #fff;
 }
 
+/*page customer-feedback*/
+
+.customer-feedback .image-about-us {
+    margin-top: 0;
+    padding-top: 0;
+    border: none;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #A1A1A1;
+}
+
+.news-block {
+    width: 300px;
+    border: 1px solid #F2F2F2;
+    margin-bottom: 25px;
+}
+
+.news-block__title {
+    background-color: #f2f2f2;
+    width: 100%;
+    padding: 21px 18px;
+    margin-bottom: 15px;
+}
+
+.news-block__title h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+.news-block__title img {
+    width: 18px;
+}
+
+.news-block__news {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #F2F2F2;
+    margin: 0 18px;
+    margin-bottom: 15px;
+}
+
+.news-block__news:last-of-type {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+.news-block__news a {
+    color: #000;
+}
+
+.news-block__news a:hover {
+    color: #2081F3;
+}
+
+.customer-feedback__info {
+    width: 580px;
+    padding-right: 20px;
+}
+
+.customer-feedback__info_title {
+    border-bottom: 2px solid #A1A1A1;
+    padding-bottom: 8px;
+    justify-content: space-between;
+    height: 48px;
+}
+
+.customer-feedback__info_title h2 {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 300;
+}
+
+.customer-feedback__info_link {
+    color: #F4343D;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    font-family: 'Exo 2', sans-serif;
+    text-transform: uppercase;
+}
+
+.customer-feedback__info_link:hover {
+    color: #F4343D;
+}
+
+.customer-feedback__info_link.blue {
+    color: #2081F3;
+}
+
+.customer-feedback__info_link img {
+    margin-right: 8px;
+}
+
+.customer-feedback__video {
+    width: 380px;
+}
+
 @media only screen and (max-width: 1400px) {
     .left-menu,
     .reviews,
