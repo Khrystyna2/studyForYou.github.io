@@ -482,6 +482,7 @@ main.about-us,
 .banner-slider {
     max-height: 330px;
     overflow: hidden;
+    width: 100%;
 }
 
 .banner-slider .slick-prev {
@@ -574,17 +575,18 @@ th.title-table {
     position: relative;
     background: #fff;
     overflow: hidden;
+    margin-top: 50px;
 }
 
 .select select {
     width: 100%;
     height: inherit;
     border: 1px solid #9F9F9F;
-    border-radius: 0;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    -o-border-radius: 0;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
     background-color: transparent;
     padding-left: 22px;
     box-shadow: none;
@@ -595,6 +597,11 @@ th.title-table {
     cursor: pointer;
     z-index: 2;
     position: relative;
+}
+
+.select select > option {
+    border-bottom: 1px solid red;
+    padding: 15px;
 }
 
 .arrow-select {
@@ -610,6 +617,17 @@ th.title-table {
     text-align: center;
     cursor: pointer;
     z-index: 1;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.select:hover .arrow-select{
+    opacity: .6;
 }
 
 @media only screen and (max-width: 1400px) {
@@ -644,6 +662,16 @@ th.title-table {
         display: flex;
         flex-flow: column;
         justify-content: space-between;
+    }
+
+    td.table-option, th.table-option {
+        text-align: left;
+        padding-left: 40px;
+        min-width: 300px;
+    }
+
+    td, th {
+        min-width: 100px;
     }
 }
 
@@ -713,6 +741,16 @@ th.title-table {
         line-height: 23px;
         text-transform: uppercase;
         margin-bottom: 17px;
+    }
+
+    td.table-option, th.table-option {
+        text-align: left;
+        padding-left: 15px;
+        min-width: 240px;
+    }
+
+    td, th {
+        min-width: 90px;
     }
 }
 
@@ -830,6 +868,35 @@ th.title-table {
         width: 100%;
         padding: 30px 40px;
         margin-bottom: 20px;
+    }
+
+    th.title-table {
+        font-size: 16px;
+    }
+
+    td, th {
+        min-width: 70px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    td.table-option, th.table-option {
+        text-align: left;
+        padding-left: 10px;
+        min-width: 160px;
+    }
+
+    .banner-slider {
+        max-height: 200px;
+    }
+
+    .banner-slider .slick-dots li {
+        width: 10px;
+        height: 10px;
+    }
+
+    .banner-slider .slick-dots {
+        bottom: 10px;
     }
 }
 
