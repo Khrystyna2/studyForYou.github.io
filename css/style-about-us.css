@@ -1,6 +1,7 @@
 main.about-us,
 .our-projects,
-.customer-feedback {
+.customer-feedback,
+.vacancies {
     background: -moz-linear-gradient(to top, #F7F7F7, #fff);
     background: -o-linear-gradient(to top, #F7F7F7, #fff);
     background: -webkit-linear-gradient(to top, #F7F7F7, #fff);
@@ -151,7 +152,8 @@ main.about-us,
 
 /*page our-projects*/
 
-.projects .subtitle-section {
+.projects .subtitle-section,
+.vacancies .subtitle-section {
     margin-top: 0;
 }
 
@@ -466,7 +468,7 @@ main.about-us,
 
 @media only screen and (max-width: 992px) {
 
-    main.about-us, .our-projects, .customer-feedback {
+    main.about-us, .our-projects, .customer-feedback, .vacancies {
         padding-bottom: 35px;
     }
 
@@ -655,7 +657,8 @@ main.about-us,
         display: none;
     }
 
-    .projects .subtitle-section {
+    .projects .subtitle-section, 
+    .vacancies .subtitle-section {
         margin-top: 20px;
     }
 
@@ -677,6 +680,10 @@ main.about-us,
 
     .content-reviews, .content-video {
         padding: 35px 50px;
+    }
+
+    .vacancies .left-menu li:nth-last-of-type(2) {
+        border-bottom: 1px solid #2081F3;
     }
 }
 
