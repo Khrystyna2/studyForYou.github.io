@@ -965,6 +965,13 @@ ul.footer-icons li > a:hover {
     text-decoration: underline;
 }
 
+.slider-first .slick-prev {
+    left: -20px;
+}
+.slider-first .slick-next {
+    right: -20px;
+}
+
 @media only screen and (max-width: 1400px) {
     .logo-text {
         margin-left: 60px;
@@ -1058,7 +1065,7 @@ ul.footer-icons li > a:hover {
     }
 
     .footer-menu__box ul:first-of-type {
-        margin-right: 40px;
+        margin-right: 70px;
     }
     
 }
@@ -1117,9 +1124,16 @@ ul.footer-icons li > a:hover {
     .footer::before {
         bottom: 100px;
     }
+
+    .slider-first .slick-prev {
+        left: -25px;
+    }
+    .slider-first .slick-next {
+        right: -25px;
+    }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991.5px) {
     .logo-text {
         display: none;
     }
@@ -1628,7 +1642,7 @@ ul.footer-icons li > a:hover {
         margin: 0 auto;
     }
 }
-@media only screen and (min-width: 1400px) {
+@media only screen and (min-width: 1401px) {
     .container {
         max-width: 1380px;
     }

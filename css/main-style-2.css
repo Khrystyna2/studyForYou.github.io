@@ -407,6 +407,15 @@ main.about-us,
 }
 
 /*educational*/
+
+.education {
+    background: -moz-linear-gradient(to top, #F7F7F7, #fff);
+    background: -o-linear-gradient(to top, #F7F7F7, #fff);
+    background: -webkit-linear-gradient(to top, #F7F7F7, #fff);
+    background: linear-gradient(to top, #F7F7F7, #fff);
+    padding-bottom: 80px;
+}
+
 .educational-offers {
     justify-content: space-between;
     margin-top: 60px;
@@ -565,7 +574,7 @@ main.about-us,
     }
 }
 
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 991.5px) {
 
     main.about-us, .our-projects, .customer-feedback, .vacancies {
         padding-bottom: 35px;
