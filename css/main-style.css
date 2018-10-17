@@ -1627,6 +1627,14 @@ ul.footer-icons li > a:hover {
         margin-top: 35px;
         max-height: 315px;
     }
+
+    .slider-first .slick-prev {
+        left: 0;
+    }
+
+    .slider-first .slick-next {
+        right: 0;
+    }
 }
 
 @media only screen and (max-width: 425px) {

@@ -271,7 +271,7 @@ main.about-us,
 
 /*page customer-feedback*/
 
-.customer-feedback .image-about-us {
+.border-botom {
     margin-top: 0;
     padding-top: 0;
     border: none;
@@ -628,6 +628,30 @@ th.title-table {
 
 .select:hover .arrow-select{
     opacity: .6;
+}
+
+
+/*photo&video page*/
+
+.building {
+    margin-top: 25px;
+}
+
+.building .col-12.col-sm-6.col-lg-4 {
+    padding: 0 10px;
+}
+
+.building .img-universities {
+    width: 100%;
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+
+.building .img-universities .universities__desc p{
+    position: absolute;
+    bottom: 15px;
 }
 
 @media only screen and (max-width: 1400px) {
