@@ -1,3 +1,30 @@
+.link-page {
+    padding: 40px 0;
+    font-weight: 300;
+}
+
+.link-page a {
+    color: #000;
+    position: relative;
+    padding-right: 20px;
+}
+
+.link-page a:hover {
+    text-decoration: underline;
+}
+
+.link-page a::after{
+    content: '.';
+    font-weight: 700;
+    position: absolute;
+    top: 6px;
+    line-height: 2px;
+    right: 5px;
+}
+.link-page span {
+    color: #8B8B8B;
+}
+
 main.about-us,
 .our-projects,
 .customer-feedback,
@@ -379,6 +406,60 @@ main.about-us,
     border-bottom: none;
 }
 
+/*educational*/
+.educational-offers {
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.educational-offers__content {
+    width: 49%;
+    border: 1px solid #C4C4C4;
+    padding: 30px 40px;
+}
+
+.educational-offers__content_title {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    margin-bottom: 17px;
+}
+
+.educational-offers__content_link {
+    width: 186px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-size: 13px;
+}
+
+.btn-border-red {
+    border: 2px solid #F4343D;
+    color: #F4343D;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.btn-border-red:hover {
+    border: 2px solid #D80027;
+    color: #D80027;
+}
+
 
 @media only screen and (max-width: 1400px) {
     .left-menu,
@@ -406,6 +487,12 @@ main.about-us,
 
     .content-reviews, .content-video {
         padding: 30px 40px;
+    }
+
+    .educational-offers__content {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
     }
 }
 
@@ -463,6 +550,18 @@ main.about-us,
     .customer-feedback__info_link img {
         margin-right: 5px;
         width: 20px;
+    }
+
+    .educational-offers__content {
+        padding: 30px 20px;
+    }
+
+    .educational-offers__content_title {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 23px;
+        text-transform: uppercase;
+        margin-bottom: 17px;
     }
 }
 
@@ -568,6 +667,18 @@ main.about-us,
     .news-block__news a {
         color: #000;
         font-size: 13px;
+    }
+
+    .educational-offers {
+        justify-content: space-between;
+        margin-top: 45px;
+        flex-flow: column;
+    }
+
+    .educational-offers__content {
+        width: 100%;
+        padding: 30px 40px;
+        margin-bottom: 20px;
     }
 }
 
@@ -707,6 +818,10 @@ main.about-us,
 
     .content-reviews, .content-video {
         padding: 25px 30px;
+    }
+
+    .educational-offers__content {
+        padding: 20px;
     }
 }
 

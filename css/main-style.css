@@ -965,29 +965,6 @@ ul.footer-icons li > a:hover {
     text-decoration: underline;
 }
 
-.link-page {
-    padding: 40px 0;
-    font-weight: 300;
-}
-
-.link-page a {
-    color: #000;
-    position: relative;
-    padding-right: 20px;
-}
-
-.link-page a::after{
-    content: '.';
-    font-weight: 700;
-    position: absolute;
-    top: 6px;
-    line-height: 2px;
-    right: 5px;
-}
-.link-page span {
-    color: #8B8B8B;
-}
-
 @media only screen and (max-width: 1400px) {
     .logo-text {
         margin-left: 60px;
