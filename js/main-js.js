@@ -159,7 +159,16 @@ $(document).ready(function() {
     $(this).toggleClass('return');
   });
 
- 
+
+  $('.banner-slider').slick({
+    infinite: true,
+    // autoplay: true
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: true,
+    arrows: true,
+    speed: 600
+  });
 
 });
 

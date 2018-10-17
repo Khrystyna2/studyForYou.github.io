@@ -1,3 +1,11 @@
+.bg-color {
+    background: -moz-linear-gradient(to top, #F7F7F7, #fff);
+    background: -o-linear-gradient(to top, #F7F7F7, #fff);
+    background: -webkit-linear-gradient(to top, #F7F7F7, #fff);
+    background: linear-gradient(to top, #F7F7F7, #fff);
+    padding-bottom: 80px;
+}
+
 .link-page {
     padding: 40px 0;
     font-weight: 300;
@@ -469,6 +477,140 @@ main.about-us,
     color: #D80027;
 }
 
+/*page services*/ 
+
+.banner-slider {
+    max-height: 330px;
+    overflow: hidden;
+}
+
+.banner-slider .slick-prev {
+    left: 20px;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.6)
+}
+
+.banner-slider .slick-next {
+    right: 20px;
+    background-color: rgba(255, 255, 255, 0.6)
+}
+
+.banner-slider .slick-dots {
+    bottom: 16px;
+}
+
+.banner-slider .slick-dots li {
+    position: relative;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: 0 5px;
+    padding: 0;
+    cursor: pointer;
+    border: .5px solid #F4343D;
+    background-color: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.banner-slider .slick-dots li.slick-active {
+    background-color: #F4343D;
+}
+
+.banner-slider .slick-dots li button:before {
+    content: '';
+}
+
+.wrapper-table {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.table-price {
+    margin-top: 25px;
+}
+
+table {
+    width: 100%;
+    background-color: #fff;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    padding: 18px 0;
+    text-align: center;
+    min-width: 133px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+td.table-option,
+th.table-option {
+    text-align: left;
+    padding-left: 40px;
+    min-width: 348px;
+}
+
+th {
+    font-weight: 600;
+    font-family: 'Exo 2', sans-serif;
+    background-color: #F2F2F2;
+}
+
+th.title-table {
+    font-size: 18px;
+}
+
+/* style select */
+
+.select {
+    width: 288px;
+    height: 41px;
+    position: relative;
+    background: #fff;
+    overflow: hidden;
+}
+
+.select select {
+    width: 100%;
+    height: inherit;
+    border: 1px solid #9F9F9F;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    background-color: transparent;
+    padding-left: 22px;
+    box-shadow: none;
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
+    z-index: 2;
+    position: relative;
+}
+
+.arrow-select {
+    width: 40px;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #9F9F9F;
+    color: #fff;
+    line-height: 40px;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    z-index: 1;
+}
 
 @media only screen and (max-width: 1400px) {
     .left-menu,
