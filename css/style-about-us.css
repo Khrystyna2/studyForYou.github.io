@@ -1,5 +1,6 @@
 main.about-us,
-.our-projects {
+.our-projects,
+.customer-feedback {
     background: -moz-linear-gradient(to top, #F7F7F7, #fff);
     background: -o-linear-gradient(to top, #F7F7F7, #fff);
     background: -webkit-linear-gradient(to top, #F7F7F7, #fff);
@@ -245,6 +246,7 @@ main.about-us,
     width: 300px;
     border: 1px solid #F2F2F2;
     margin-bottom: 25px;
+    background-color: #fff;
 }
 
 .news-block__title {
@@ -309,6 +311,8 @@ main.about-us,
     line-height: 16px;
     font-family: 'Exo 2', sans-serif;
     text-transform: uppercase;
+    display: flex;
+    align-items: center;
 }
 
 .customer-feedback__info_link:hover {
@@ -323,9 +327,56 @@ main.about-us,
     margin-right: 8px;
 }
 
+.content-reviews,
+.content-video {
+    border: 1px solid #F2F2F2;
+    width: 100%;
+    padding: 40px 50px;
+    margin-top: 15px;
+    background-color: #fff;
+    margin-bottom: 25px;
+}
+
+.content-reviews .reviews {
+    width: 100%;
+    border: none;
+    padding: 0;
+    padding-bottom: 22px;
+    margin-bottom: 22px;
+    border-bottom: 1px solid #A1A1A1;
+}
+
+.content-reviews .reviews:last-of-type {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
 .customer-feedback__video {
     width: 380px;
 }
+
+.video {
+    width: 100%;
+    margin-bottom: 22px;
+    padding-bottom: 22px;
+    border-bottom: 1px solid #A1A1A1;
+}
+
+.video-title {
+    margin-bottom: 13px;
+}
+
+.video > video {
+    width: 100%;
+}
+
+.video:last-of-type {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
 
 @media only screen and (max-width: 1400px) {
     .left-menu,
@@ -336,6 +387,23 @@ main.about-us,
 
     .box-description {
         margin-left: 25px;
+    }
+
+    .news-block {
+        width: 100%;
+    }
+
+    .customer-feedback__info {
+        width: 62%;
+        padding-right: 20px;
+    }
+
+    .customer-feedback__video {
+        width: 38%;
+    }
+
+    .content-reviews, .content-video {
+        padding: 30px 40px;
     }
 }
 
@@ -365,9 +433,43 @@ main.about-us,
     .box-info__desc {
         width: 65%;
     }
+
+    .content-reviews, .content-video {
+        padding: 15px 20px;
+    }
+
+    .customer-feedback__info {
+        width: 62%;
+        padding-right: 10px;
+    }
+
+    .customer-feedback__info_title h2 {
+        font-size: 28px;
+        line-height: 30px;
+        font-weight: 300;
+    }
+
+    .customer-feedback__info_title {
+        height: 40px;
+    }
+
+    .customer-feedback__info_link {
+        font-size: 12px;
+        line-height: 13px;
+    }
+
+    .customer-feedback__info_link img {
+        margin-right: 5px;
+        width: 20px;
+    }
 }
 
 @media only screen and (max-width: 992px) {
+
+    main.about-us, .our-projects, .customer-feedback {
+        padding-bottom: 35px;
+    }
+
     .link-page {
         padding: 25px 0;
         font-weight: 300;
@@ -446,6 +548,24 @@ main.about-us,
         font-size: 16px;
         line-height: 20px;
         margin-bottom: 5px;
+    }
+
+    .box-description {
+        flex-flow: column;
+    }
+
+    .customer-feedback__info {
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .customer-feedback__video {
+        width: 100%;
+    }
+
+    .news-block__news a {
+        color: #000;
+        font-size: 13px;
     }
 }
 
@@ -542,6 +662,22 @@ main.about-us,
     .title-section {
         margin-top: 20px;
     }
+
+    .news-block {
+        display: none;
+    }
+
+    .content-reviews .reviews {
+        display: block;
+    }
+
+    .customer-feedback__info {
+        margin-top: 25px;
+    }
+
+    .content-reviews, .content-video {
+        padding: 35px 50px;
+    }
 }
 
 @media only screen and (max-width: 500px) {
@@ -556,5 +692,27 @@ main.about-us,
 
     .box-info__desc {
         width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+
+    .content-reviews, .content-video {
+        padding: 25px 30px;
+    }
+}
+
+
+@media only screen and (max-width: 375px) {
+
+    .customer-feedback__info_title h2 {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 300;
+    } 
+
+    .content-reviews, .content-video {
+        padding: 15px 20px;
     }
 }
