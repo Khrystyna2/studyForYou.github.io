@@ -539,6 +539,7 @@ body {
     margin-right: 21px;
     position: relative;
     width: 35px;
+    height: 35px;
 }
 
 .send-email__icon a img{
@@ -1329,7 +1330,7 @@ ul.footer-icons li > a:hover {
     }
 
     .sticky {
-        position: static;
+        margin-top: 0;
     }
 
     .bottom-wrap {

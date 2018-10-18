@@ -757,6 +757,88 @@ th.title-table {
     margin-bottom: 55px;
 } */
 
+/*page contacts*/
+
+.contacts .subtitle-section {
+    margin-top: 0;
+}
+
+.contacts-wrap {
+    width: 100%;
+    padding: 40px 50px;
+    border: 1px solid #F2F2F2;
+    background-color: #fff;
+    margin-bottom: 60px;
+}
+
+.contacts-wrap__box {
+    width: 50%;
+}
+
+.contacts-wrap__box p {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.address {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    font-family: 'Exo 2', sans-serif;
+    align-items: flex-start;
+    margin-bottom: 26px;
+    margin-top: 10px;
+}
+
+.address img {
+    width: 15px;
+    margin-right: 12px;
+}
+
+.phone {
+    margin-left: 55px;
+}
+
+.phone li {
+   position: relative;
+   margin-bottom: 10px;
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 25px;
+   font-family: 'Exo 2', sans-serif;
+}
+
+.phone li > img {
+    position: absolute;
+    top: 0;
+    left: -35px;
+    width: 25px;
+}
+
+.phone li a {
+    color: #000;
+}
+
+.representatives {
+    width: 100%;
+    padding: 40px 50px;
+    border: 1px solid #F2F2F2;
+    background-color: #fff;
+    margin-top: 25px;
+}
+
+.representatives .box-info__desc a {
+   font-size: 18px;
+   font-weight: 600;
+   line-height: 24px;
+   font-family: 'Exo 2', sans-serif;
+   color: #000;
+}
+
+.representatives .box-info__desc a:hover {
+    color: #2081F3;
+}
+
 @media only screen and (max-width: 1400px) {
     .left-menu,
     .reviews,
@@ -893,6 +975,15 @@ th.title-table {
     .news-article__img {
         width: 300px;
         margin-right: 32px;
+    }
+
+    .contacts-wrap,
+    .representatives {
+        padding: 30px 25px;
+    }
+
+    .phone {
+        margin-left: 60px;
     }
 }
 
@@ -1052,6 +1143,28 @@ th.title-table {
         width: 200px;
         margin-right: 32px;
         margin-bottom: 10px;
+    }
+
+    .contacts-wrap__box p {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .phone li,
+    .address {
+        font-size: 14px;
+    }
+
+    .contacts-wrap__box {
+        width: auto;
+    }
+
+    .phone {
+        margin-left: 35px;
+    }
+
+    .contacts-wrap {
+        justify-content: space-between;
     }
 }
 
@@ -1234,6 +1347,20 @@ th.title-table {
     .group-select .select {
         margin-bottom: 16px;
         margin-right: 0;
+    }
+
+    .contacts-wrap {
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contacts-wrap__box:first-of-type {
+        margin-bottom: 30px;
+    }
+
+    .phone li, .address {
+        font-size: 16px;
     }
 
 }
