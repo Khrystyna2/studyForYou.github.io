@@ -417,14 +417,9 @@ body {
     position: relative;
 }
 .image__title span::before {
-    content: '';
-    background: url(../img/index/Group-line.svg) no-repeat center center;
-    width: 9px;
-    height: 8px;
-    position: absolute;
-    top: 50%;
-    margin-top: -4px;
-    left: -14px;
+    content: '\f0c9';
+    font-family: 'FontAwesome', sans-serif;
+    padding-right: 6px;
 }
 
 /* section service */

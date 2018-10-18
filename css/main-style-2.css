@@ -633,6 +633,69 @@ th.title-table {
 
 /*photo&video page*/
 
+.gallery-photo-video {
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.gallery-photo-video__image {
+    width: 32%;
+    overflow: hidden;
+    border: 1px solid #F4343D;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.1);
+    display: block;
+    transition: .4s ease;
+    -webkit-transition: .4s ease;
+    -moz-transition: .4s ease;
+    -ms-transition: .4s ease;
+    -o-transition: .4s ease;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+}
+
+.gallery-photo-video img {
+    width: 100%;
+}
+
+.gallery-photo-video__title {
+    height: 54px;
+    line-height: 54px;
+    background-color: #fff;
+    width: 100%;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #F4343D;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: 700;
+    transition:   .4s ease;
+    -webkit-transition:   .4s ease;
+    -moz-transition:   .4s ease;
+    -ms-transition:   .4s ease;
+    -o-transition:   .4s ease;
+    margin-top: -5px;
+}
+
+.gallery-photo-video__title > i {
+    padding-right: 6px;
+}
+
+.gallery-photo-video__image:hover .gallery-photo-video__title {
+    color: #fff;
+    background-color: #F4343D;
+    width: 100%;
+}
+
+.group-select .select {
+    margin-top: 0;
+    margin-right: 25px;
+}
+
 .building {
     margin-top: 25px;
 }
@@ -647,7 +710,6 @@ th.title-table {
     position: relative;
     margin-bottom: 20px;
 }
-
 
 .building .img-universities .universities__desc p{
     position: absolute;
@@ -775,6 +837,12 @@ th.title-table {
 
     td, th {
         min-width: 90px;
+    }
+
+    .gallery-photo-video__title {
+        font-size: 12px;
+        height: 45px;
+        line-height: 45px;
     }
 }
 
@@ -922,6 +990,13 @@ th.title-table {
     .banner-slider .slick-dots {
         bottom: 10px;
     }
+
+    .gallery-photo-video__title {
+        font-size: 10px;
+        height: 40px;
+        line-height: normal;
+        padding-top: 14px;
+    }
 }
 
 @media only screen and (max-width: 767.5px) {
@@ -1040,6 +1115,35 @@ th.title-table {
     }
 }
 
+@media only screen and (max-width: 576px) {
+    .gallery-photo-video {
+        justify-content: center;
+        align-items: center;
+        margin: 50px 0;
+        flex-flow: column;
+    }
+
+    .gallery-photo-video__image {
+        width: 290px;
+        margin-bottom: 16px;
+    }
+
+    .gallery-photo-video__title {
+        font-size: 14px;
+        height: 50px;
+        line-height: normal;
+        padding-top: 16px;
+    }
+
+    .building .img-universities {
+        width: 290px;
+        display: block;
+        position: relative;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+}
+
 @media only screen and (max-width: 500px) {
     .box-info {
         flex-flow: column;
@@ -1052,6 +1156,16 @@ th.title-table {
 
     .box-info__desc {
         width: 100%;
+    }
+
+    .group-select {
+        align-items: center;
+        flex-flow: column;
+    }
+
+    .group-select .select {
+        margin-bottom: 16px;
+        margin-right: 0;
     }
 
 }
