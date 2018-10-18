@@ -839,6 +839,30 @@ th.title-table {
     color: #2081F3;
 }
 
+/*page partners*/
+
+.partners-slider {
+    margin-top: 60px;
+}
+
+.partners-slider .slick-prev {
+    left: 0;
+    z-index: 1;
+}
+
+.partners-slider .slick-next {
+    right: 0;
+}
+
+.partners-slider .content-slider:last-of-type,
+.partners-slider .content-slider:nth-of-type(3n) {
+       border-right: 1px solid #A1A1A1;
+}
+
+.partners-slider .content-slider:nth-child(2n) {
+    border-right: none;
+}
+
 @media only screen and (max-width: 1400px) {
     .left-menu,
     .reviews,
@@ -1166,6 +1190,29 @@ th.title-table {
     .contacts-wrap {
         justify-content: space-between;
     }
+
+    .partners-slider {
+        margin-top: 60px;
+        width: 80%;
+        margin: 60px auto 0;
+    }
+
+    .partners-slider .content-slider {
+        border: none;
+    }
+    
+    .partners-slider .content-slider:last-of-type,
+    .partners-slider .content-slider:nth-of-type(3n) {
+       border-right: none;
+    }
+
+    .partners-slider .slick-prev {
+        left: -20px;
+    }
+    
+    .partners-slider .slick-next {
+        right: -20px;
+    }
 }
 
 @media only screen and (max-width: 767.5px) {
@@ -1362,7 +1409,6 @@ th.title-table {
     .phone li, .address {
         font-size: 16px;
     }
-
 }
 
 @media only screen and (max-width: 425px) {
@@ -1373,6 +1419,19 @@ th.title-table {
 
     .educational-offers__content {
         padding: 20px;
+    }
+
+    .partners-slider {
+        margin-top: 60px;
+        width: 100%;
+    }
+
+    .partners-slider .slick-prev {
+        left: 0;
+    }
+    
+    .partners-slider .slick-next {
+        right: 0;
     }
 }
 

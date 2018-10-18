@@ -170,5 +170,21 @@ $(document).ready(function() {
     speed: 600
   });
 
+
+  $('.partners-slider').slick({
+    infinite: false,
+    slidesToShow: 2,
+    slidesToScroll: 2,
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  });
+
 });
 
