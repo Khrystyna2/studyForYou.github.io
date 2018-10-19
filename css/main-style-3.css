@@ -1,0 +1,58 @@
+
+/*page catalog*/
+
+.catalog .title-section {
+    margin-top: 60px;
+}
+
+
+@media only screen and (max-width: 1400px) {
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .catalog .title-section {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (max-width: 991.5px) {
+    .catalog .title-section {
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 767.5px) {
+    .catalog .banner-slider{
+        margin-top: 20px;
+    }
+
+    .catalog .title-section {
+        margin-top: 20px;
+    }
+
+    .mob-screen .image-about-us,
+    .mob-screen .news-block {
+        display: block;
+        width: 350px;
+        margin: 20px auto 0;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    
+}
+
+@media only screen and (max-width: 500px) {
+    
+}
+
+@media only screen and (max-width: 425px) {
+    .mob-screen .image-about-us,
+    .mob-screen .news-block {
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 375px) {
+    
+}
