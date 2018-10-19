@@ -511,6 +511,7 @@ body {
     font-size: 13px;
     font-weight: 700;
     font-family: 'Exo 2', sans-serif;
+    text-transform: uppercase;
     cursor: pointer;
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
