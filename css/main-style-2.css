@@ -119,6 +119,12 @@ main.about-us,
     width: 300px;
 }
 
+.reviews > p {
+    font-size: 14px;
+    font-style: italic;
+    padding-bottom: 8px;
+}
+
 .image-about-us {
     width: 300px;
     padding-top: 25px;
@@ -142,11 +148,24 @@ main.about-us,
     margin-bottom: 15px;
 }
 
-.text-section {
+.about-studyForYou p,
+.catalog p,
+.contacts > p,
+.content-education p,
+.news-article p,
+.partners > p,
+.content-photo-video p,
+.content-services p {
     font-size: 17px;
     line-height: 23px;
     margin-bottom: 20px;
 }
+
+/* .text-section {
+    font-size: 17px;
+    line-height: 23px;
+    margin-bottom: 20px;
+} */
 
 .subtitle-section {
     font-size: 32px;
@@ -228,6 +247,7 @@ main.about-us,
     font-size: 18px;
     line-height: 25px;
     font-weight: 600;
+    margin-bottom: 4px;
 }
 
 .box-info__desc_btn {
@@ -753,10 +773,6 @@ th.title-table {
     float: left;
 }
 
-/* .news-article .text-section:first-of-type {
-    margin-bottom: 55px;
-} */
-
 /*page contacts*/
 
 .contacts .subtitle-section {
@@ -1050,8 +1066,10 @@ th.title-table {
         margin-bottom: 10px;
     }
 
-    .reviews .content-slider__text {
+    .reviews > p {
         font-size: 11px;
+        font-style: italic;
+        padding-bottom: 8px;
     }
 
     .title-section {
@@ -1061,11 +1079,24 @@ th.title-table {
         margin-bottom: 12px;
     }
 
-    .text-section {
+    .about-studyForYou p,
+    .catalog p,
+    .contacts > p,
+    .content-education p,
+    .news-article p,
+    .partners > p,
+    .content-photo-video p,
+    .content-services p {
         font-size: 14px;
         line-height: 18px;
         margin-bottom: 10px;
     }
+/* 
+    .text-section {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 10px;
+    } */
 
     .subtitle-section {
         font-size: 24px;

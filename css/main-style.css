@@ -689,13 +689,21 @@ body {
     margin-right: 6px;
 }
 
-.news__desc_text {
+.news__desc p {
     padding-bottom: 10px;
 }
 
-.news__desc_text:last-of-type {
+/* .news__desc_text {
+    padding-bottom: 10px;
+} */
+
+.news__desc p:last-of-type {
     padding-bottom: 0;
 }
+
+/* .news__desc_text:last-of-type {
+    padding-bottom: 0;
+} */
 
 /* section slider */
 
@@ -755,10 +763,15 @@ body {
     color: #9B9B9B;
 }
 
-.content-slider__text {
+.content-slider p {
     font-style: italic;
     padding-bottom: 8px;
 }
+
+/* .content-slider__text {
+    font-style: italic;
+    padding-bottom: 8px;
+} */
 
 /* section universities */
 
@@ -1425,11 +1438,17 @@ ul.footer-icons li > a:hover {
         margin-bottom: 15px;
     }
 
-    .content-slider__text {
+    .content-slider p {
         font-style: italic;
         padding-bottom: 5px;
         font-size: 13px;
     }
+/* 
+    .content-slider__text {
+        font-style: italic;
+        padding-bottom: 5px;
+        font-size: 13px;
+    } */
 
     .universities__desc {
         padding-top: 0;
