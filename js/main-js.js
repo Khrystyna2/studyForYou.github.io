@@ -186,5 +186,8 @@ $(document).ready(function() {
     ]
   });
 
+  //select
+
+  $('select').styler();
 });
 

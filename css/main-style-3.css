@@ -8,7 +8,7 @@
 .group-input {
     width: 100%;
     margin-top: 20px;
-    margin-bottom: 33px;
+    margin-bottom: 32px;
 }
 
 .group-input input {
@@ -66,6 +66,7 @@
 
 .wrapper {
     justify-content: space-between;
+    align-items: flex-start;
 }
 
 .content-universities {
@@ -181,7 +182,65 @@
 .suggestions {
     width: 270px;
     border: 1px solid #F2F2F2;
+    padding: 0 11px;
+    text-align: center;
+    background-color: #fff;
+    padding-bottom: 25px;
 }
+
+.suggestions__title {
+    width: calc(100% + 22px);
+    background-color: #F2F2F2;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Exo 2', sans-serif;
+    height: 57px;
+    margin-bottom: 25px;
+    text-align: center;
+    line-height: 57px;
+    margin-left: -11px;
+}
+
+.suggestions .select {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.suggestions hr {
+    background-color: #A1A1A1;
+    margin-top: 25px;
+}
+
+.pickUp-program {
+    display: inline-block;
+    background-color: #2081F3;
+    color: #fff;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+    margin: 16px 0;
+}
+
+.pickUp-program:hover {
+    color: #fff;
+    opacity: .8;
+}
+
 
 
 
