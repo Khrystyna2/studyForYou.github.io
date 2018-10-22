@@ -553,7 +553,8 @@ table {
     background-color: #fff;
 }
 
-td, th {
+.table-price td, .table-price th,
+.tabel-services td, .tabel-services th {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
@@ -571,7 +572,8 @@ th.table-option {
     min-width: 348px;
 }
 
-th {
+.table-price th,
+.tabel-services th {
     font-weight: 600;
     font-family: 'Exo 2', sans-serif;
     background-color: #F2F2F2;
@@ -604,7 +606,7 @@ th.title-table {
 
 .arrow-select {
     width: 40px;
-    height: 41px;
+    height: 40px;
     position: absolute;
     top: 0;
     right: 0;
@@ -629,7 +631,7 @@ th.title-table {
 }
 
 .jq-selectbox__select {
-    height: 41px;
+    height: 40px;
     padding: 0 45px 0 22px;
     border: 1px solid #9F9F9F;
     border-bottom-color: #B3B3B3;
@@ -987,7 +989,8 @@ th.title-table {
         min-width: 300px;
     }
 
-    td, th {
+    .table-price td, .table-price th,
+    .tabel-services td, .tabel-services th {
         min-width: 100px;
     }
 }
@@ -1065,8 +1068,8 @@ th.title-table {
         padding-left: 15px;
         min-width: 240px;
     }
-
-    td, th {
+    .table-price td, .table-price th,
+    .tabel-services td, .tabel-services th {
         min-width: 90px;
     }
 
@@ -1224,7 +1227,8 @@ th.title-table {
         font-size: 16px;
     }
 
-    td, th {
+    .table-price td, .table-price th,
+    .tabel-services td, .tabel-services th {
         min-width: 70px;
         font-size: 12px;
         line-height: 18px;

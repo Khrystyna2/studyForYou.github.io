@@ -189,5 +189,9 @@ $(document).ready(function() {
   //select
 
   $('select').styler();
+
+  $( function() {
+    $( "#datepicker" ).datepicker();
+  });
 });
 
