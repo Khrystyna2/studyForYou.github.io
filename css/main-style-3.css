@@ -70,11 +70,31 @@
 
 .content-universities {
     width: 670px;
+}
+
+.content-universities__desc {
+    width: 100%;
     padding: 40px 50px;
     border: 1px solid #F2F2F2;
     background-color: #fff;
     margin-right: 20px;
+    margin-bottom: 50px;
+    position: relative;
 }
+
+.content-universities__desc::after {
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -25px;
+    border-bottom: 1px solid #A1A1A1;
+}
+
+.content-universities__desc:last-of-type::after { 
+    width: 0;
+}
+
 
 .content-universities__header {
     -ms-flex-align: start;

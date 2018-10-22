@@ -768,10 +768,6 @@ body {
     padding-bottom: 8px;
 }
 
-/* .content-slider__text {
-    font-style: italic;
-    padding-bottom: 8px;
-} */
 
 /* section universities */
 
@@ -1443,12 +1439,6 @@ ul.footer-icons li > a:hover {
         padding-bottom: 5px;
         font-size: 13px;
     }
-/* 
-    .content-slider__text {
-        font-style: italic;
-        padding-bottom: 5px;
-        font-size: 13px;
-    } */
 
     .universities__desc {
         padding-top: 0;
