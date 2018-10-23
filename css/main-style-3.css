@@ -150,7 +150,7 @@
 .content-universities__link {
     border-bottom: 1px solid #F4343D;
     color: #F4343D;
-    margin-top: 16px;
+    margin-top: 10px;
     font-size: 17px;
     font-weight: 500;
     padding-bottom: 3px;
@@ -195,6 +195,10 @@
     color: #000;
     font-weight: 700;
     padding-left: 8px;
+}
+
+.content-universities__btn.btn-red {
+    margin-left: 0;
 }
 
 .content-universities__btn.btn-blue {
@@ -545,7 +549,29 @@ input#datepicker::placeholder{
     border: 1px solid #2081F3;
 }
 
+.payment {
+    background-color: #F2F2F2;
+    height: inherit;
+    width: 200px;
+    text-align: center;
+    padding-top: 6px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
 
+.payment > p {
+    font-size: 11px;
+    font-weight: 700;
+    font-family: 'Exo 2', sans-serif; 
+    display: inline-block;    
+}
+
+.payment > p span {
+    color: #F4343D;
+}
 
 
 @media only screen and (max-width: 1400px) {
@@ -565,6 +591,14 @@ input#datepicker::placeholder{
 
     .suggestions {
         width: 232px;
+    }
+
+    .payment {
+        width: 150px;
+    }
+
+    .payment > p {
+        font-size: 10px;
     }
 }
 
@@ -603,6 +637,7 @@ input#datepicker::placeholder{
         -webkit-flex-flow: column;
         -ms-flex-flow: column;
         flex-flow: column;
+        position: relative;
     }
 
     .content-universities__btn {
@@ -626,6 +661,19 @@ input#datepicker::placeholder{
         display: block;
         padding-right: 0;
         margin-bottom: 5px;
+    }
+
+    .payment {
+        width: 180px;
+        height: 34px;
+        margin-top: 14px;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+    }
+
+    .payment > p {
+        font-size: 11px;
     }
 }
 
@@ -866,6 +914,14 @@ input#datepicker::placeholder{
 
     .modal-content {
         padding: 20px 10px;
+    }
+
+    .payment {
+        width: 100%;
+        height: 34px;
+        margin-top: 14px;
+        position: static;
+        margin-top: 14px;
     }
 }
 
