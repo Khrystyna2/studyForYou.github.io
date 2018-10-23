@@ -193,5 +193,16 @@ $(document).ready(function() {
   $( function() {
     $( "#datepicker" ).datepicker();
   });
+
+
+
+  $('.filter').click(function() {
+    $('.suggestions').slideDown();
+  });
+
+  $('.close-filter').click(function() {
+    $('.suggestions').slideUp();
+  });
+
 });
 

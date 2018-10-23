@@ -690,7 +690,7 @@ th.title-table {
     padding: 0;
     border: 1px solid #F2F2F2;
     background: #FFF;
-    box-shadow: none;
+    /* box-shadow: none; */
     border-radius: 2px;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;

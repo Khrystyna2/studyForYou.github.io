@@ -94,6 +94,10 @@
     border-bottom: 1px solid #A1A1A1;
 }
 
+.content-universities__desc:last-of-type {
+    margin-bottom: 0;
+}
+
 .content-universities__desc:last-of-type::after { 
     width: 0;
 }
@@ -349,13 +353,13 @@ input#datepicker::placeholder{
     cursor: pointer;
 }
 
-.ui-datepicker-next {
-    background: url(../icons/right-arrow.svg) no-repeat center center;
+.ui-widget-header .ui-datepicker-prev .ui-icon {
+    background: url(../icons/left-arrow.svg) no-repeat center center;
     background-size: 15px;
 }
 
-.ui-datepicker-prev {
-    background: url(../icons/left-arrow.svg) no-repeat center center;
+.ui-widget-header .ui-datepicker-next .ui-icon {
+    background: url(../icons/right-arrow.svg) no-repeat center center;
     background-size: 15px;
 }
 
@@ -439,24 +443,134 @@ input#datepicker::placeholder{
     opacity: .8;
 }
 
-
-
-
-
-
 @media only screen and (max-width: 1400px) {
 
+    .group-input {
+        margin-top: 10px;
+    }
+
+    .content-universities {
+        width: 555px;
+    }
+
+    .content-universities__desc {
+        padding: 30px 20px;
+    }
+
+    .content-universities__header > img {
+        width: 165px;
+        margin-bottom: 20px;
+    }
+
+    .suggestions {
+        width: 232px;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
     .catalog .title-section {
         margin-top: 40px;
     }
+
+    .content-universities {
+        width: 365px;
+    }
+
+    .content-universities__header {
+        -webkit-flex-flow: column;
+        -ms-flex-flow: column;
+        flex-flow: column;
+    }
+
+    .content-universities__header > img {
+        width: 180px;
+        margin: 0 auto 20px;
+    }
+
+    .content-universities__list {
+        font-size: 13px;
+    }
+
+    .content-universities__link {
+        margin-top: 14px;
+        font-size: 15px;
+        width: 180px;
+        margin-bottom: 20px;
+    }
+
+    .content-universities__price {
+        -webkit-flex-flow: column;
+        -ms-flex-flow: column;
+        flex-flow: column;
+    }
+
+    .content-universities__btn {
+        margin-top: 20px;
+        -webkit-align-self: flex-end;
+        -ms-flex-item-align: flex-end;
+        align-self: flex-end;
+    }
+
+    .suggestions__title {
+        font-size: 16px;
+        height: 48px;
+        line-height: 48px;
+    }
+
+    .group-input > button {
+        font-size: 12px;
+    }
 }
 
 @media only screen and (max-width: 991.5px) {
     .catalog .title-section {
         margin-top: 30px;
+    }
+
+    .wrapper {
+        position: relative;
+    }
+
+    .content-universities {
+        width: 100%;
+    }
+
+    .filter {
+        width: 60px;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        background-color: #F4343D;
+        position: absolute;
+        top: 50px;
+        right: 20px;
+    }
+
+    .suggestions {
+        display: none;
+        position: absolute;
+        right: 20px;
+        top: 50px;
+        width: 310px;
+    }
+
+    .suggestions__title {
+        position: relative;
+    }
+
+    .close-filter {
+        position: absolute;
+        right: 15px;
+        top: 0;
+        display: flex;
+        align-items: center;
+        height: inherit;
     }
 }
 
