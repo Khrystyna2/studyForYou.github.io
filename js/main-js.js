@@ -204,5 +204,32 @@ $(document).ready(function() {
     $('.suggestions').slideUp();
   });
 
+
+  // $('.content-universities__btn').click(function() {
+  //   $('.content-universities__body').slideToggle();
+  //   $(this).hide();
+  // });
+
+
+  $('.content-universities__btn').click(function() {
+    let findArticle = $(this).next('.content-universities__body');
+		if( findArticle.is(':visible')){
+      findArticle.slideUp(400);
+		}
+		else{
+			$('.content-universities__body').slideUp();
+      findArticle.slideDown();
+		}
+  });
+  
+  $('.content-universities__btn').click(function() {
+    let findBottom = $(this);
+    let hasButton = $(this).hasClass('show-btn')
+    $('.content-universities__btn').addClass('show-btn');
+		if( hasButton = true ){
+      findBottom.removeClass('show-btn');
+		}
+  });
+
 });
 
