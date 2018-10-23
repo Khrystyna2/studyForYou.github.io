@@ -7,7 +7,6 @@
 
 .group-input {
     width: 100%;
-    margin-top: 20px;
     margin-bottom: 32px;
 }
 
@@ -461,11 +460,95 @@ input#datepicker::placeholder{
     opacity: .8;
 }
 
-@media only screen and (max-width: 1400px) {
+/* page baccalaureate */
 
-    .group-input {
-        margin-top: 10px;
-    }
+.content-universities__desc > h3 {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 26px;
+    border-bottom: 1px solid #A1A1A1;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.content-universities__pricing > li {
+    display: inline-block;
+    font-weight: 700;
+    line-height: 19px;
+    padding-right: 40px;
+}
+
+.content-universities__box .calendar-date {
+    color: #000;
+    font-weight: 700;
+    padding-left: 8px;
+}
+
+/*style for checkbox*/
+.label-checkbox {
+    display: block;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 25px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-align: left;
+}
+
+.label-checkbox input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    height: 15px;
+    width: 15px;
+    background-color: #fff;
+    border: 1px solid #9F9F9F;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 50%;
+    margin-left: -2px;
+    top: 50%;
+    margin-top: -6px;
+    width: 5px;
+    height: 10px;
+    border: solid #2081F3;
+    border-width: 0 1.2px 1.2px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.label-checkbox input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.label-checkbox input:checked ~ .checkmark {
+    border: 1px solid #2081F3;
+}
+
+
+
+
+@media only screen and (max-width: 1400px) {
 
     .content-universities {
         width: 555px;
@@ -537,6 +620,12 @@ input#datepicker::placeholder{
 
     .group-input > button {
         font-size: 12px;
+    }
+
+    .content-universities__pricing > li {
+        display: block;
+        padding-right: 0;
+        margin-bottom: 5px;
     }
 }
 
@@ -678,10 +767,6 @@ input#datepicker::placeholder{
     }
 }
 
-@media only screen and (max-width: 576px) {
-    
-}
-
 @media only screen and (max-width: 450px) {
     .group-input {
         width: 80%;
@@ -789,9 +874,6 @@ input#datepicker::placeholder{
     .mob-screen .news-block {
         width: 100%;
     }
-}
-@media only screen and (max-width: 375px) {
-    
 }
 
 @media only screen and (min-width: 701px) {
