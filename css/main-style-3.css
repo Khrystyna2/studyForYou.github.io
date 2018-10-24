@@ -628,6 +628,7 @@ input#datepicker::placeholder{
 
 .name-specialty__list-suggestions li > span {
     color: #2081F3;
+    padding-left: 3px;
 }
 
 .name-specialty__group-btn {
@@ -729,13 +730,13 @@ input#datepicker::placeholder{
     margin: 0 5px;
 }
 
-.recruiting-center {
+.recruiting-center__list {
     border-bottom: 1px solid #A1A1A1;
     padding-bottom: 25px;
     margin-bottom: 25px;
 }
 
-.recruiting-center li {
+.recruiting-center__list li {
     margin-bottom: 11px;
     border: 1px solid #F4343D;
     border-radius: 5px;
@@ -750,13 +751,13 @@ input#datepicker::placeholder{
     text-transform: uppercase;
 }
 
-.recruiting-center li > img {
+.recruiting-center__list li > img {
     width: 18px;
     height: 19px;
     margin-right: 7px;
 }
 
-.recruiting-center li > span {
+.recruiting-center__list li > span {
     color: #F4343D;
 }
 
@@ -832,6 +833,22 @@ input#datepicker::placeholder{
     .payment > p {
         font-size: 10px;
     }
+
+    .content-name-specialty {
+        width: 555px;
+    }
+
+    .name-specialty__info {
+        width: 232px;
+    }
+
+    .recruiting-center__list li {
+        padding-left: 25px;
+    }
+
+    .name-specialty__list-suggestions ul:last-of-type {
+        margin-right: 0;
+    }
 }
 
 @media only screen and (max-width: 1200px) {
@@ -906,6 +923,60 @@ input#datepicker::placeholder{
 
     .payment > p {
         font-size: 11px;
+    }
+
+    .content-name-specialty {
+        width: 380px;
+    }
+
+    .recruiting-center li {
+        padding-left: 12px;
+    }
+
+    .name-specialty__requirements {
+        font-size: 14px;
+    }
+
+    .content-name-specialty p {
+        font-size: 14px;
+        line-height: 18px;
+        padding-bottom: 18px;
+    }
+
+    .name-specialty__list-suggestions {
+        font-size: 10px;
+    }
+
+    .name-specialty__list-suggestions li > img {
+        width: 13px;
+        height: 11px;
+        margin-right: 4px;
+    }
+
+    .recruiting-center__title {
+        font-size: 15px;
+    }
+
+    .recruiting-center li {
+        padding-left: 16px;
+        font-size: 12px;
+    } 
+    
+    .name-specialty__info {
+        width: 215px;
+    }
+
+    .worth-knowing__title {
+        font-size: 16px;
+    }
+
+    .worth-knowing__list {
+        padding: 0px 10px;
+    }
+
+    .worth-knowing__list li {
+        padding: 10px 0;
+        font-size: 12px;
     }
 }
 
@@ -985,6 +1056,40 @@ input#datepicker::placeholder{
     .form-questionnaire .group-input {
         width: 100%;
     }
+
+    .name-specialty {
+        -webkit-flex-flow: column;
+        -ms-flex-flow: column;
+        flex-flow: column;
+    }
+
+    .content-name-specialty {
+        width: 100%;
+    }
+
+    .name-specialty__info {
+        width: 100%;
+        display: -webkit-box; 
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex; 
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+
+    .worth-knowing,
+    .recruiting-center {
+        width: 47%;
+    }
+
+    .recruiting-center__list {
+        border-bottom: none;
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
 }
 
 @media only screen and (max-width: 767.5px) {
@@ -1006,6 +1111,13 @@ input#datepicker::placeholder{
     .group-input {
         margin-top: 25px;
     }
+
+    .content-name-specialty {
+        margin-top: 20px;
+    }
+
+    .name-specialty__list-suggestions {
+        font-size: 12px;
 }
 
 @media only screen and (max-width: 700px) {
@@ -1102,7 +1214,6 @@ input#datepicker::placeholder{
         display: none;
     }
 
-
     .content-universities__btn.btn-blue::after {
         content: '\f0d7';
         font-family: 'FontAwesome', sans-serif;
@@ -1122,6 +1233,7 @@ input#datepicker::placeholder{
     .content-universities__box {
         font-size: 12px;
     }
+
     .content-universities__box .price {
         font-size: 13px;
     }
@@ -1134,6 +1246,7 @@ input#datepicker::placeholder{
         width: 50px;
         height: 36px;
     }
+
     .group-input input {
         width: 80%;
         height: 36px;
@@ -1160,6 +1273,25 @@ input#datepicker::placeholder{
         position: static;
         margin-top: 14px;
     }
+
+    .name-specialty__info {
+        -webkit-flex-flow: column;
+        -ms-flex-flow: column;
+        flex-flow: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    .worth-knowing, .recruiting-center {
+        width: 290px;
+    }
+
+    .name-specialty__list-suggestions {
+        -webkit-flex-flow: column;
+        -ms-flex-flow: column;
+        flex-flow: column;
+    }
 }
 
 @media only screen and (max-width: 425px) {
@@ -1167,6 +1299,23 @@ input#datepicker::placeholder{
     .mob-screen .news-block {
         width: 100%;
     }
+
+    .name-specialty__group-btn {
+        -webkit-flex-flow: column;
+        -ms-flex-flow: column;
+        flex-flow: column;
+    }
+
+    .name-specialty__group-btn .btn-red {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+   .name-specialty__group-btn .btn-border-red {
+       width: 100%;
+    }
+
 }
 
 @media only screen and (min-width: 701px) {
@@ -1175,3 +1324,4 @@ input#datepicker::placeholder{
         margin: 1.75rem auto;
     }
 }
+
