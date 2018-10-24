@@ -575,11 +575,13 @@ input#datepicker::placeholder{
 
 /*page name-specialty*/
 
-.content-name-specialty {
+.content-name-specialty,
+.content-name-courses {
     width: 670px;
 }
 
-.content-name-specialty .subtitle-section {
+.content-name-specialty .subtitle-section,
+.content-name-courses .subtitle-section {
     margin-top: 0;
 }
 
@@ -703,13 +705,15 @@ input#datepicker::placeholder{
     margin-top: -8px;
 }
 
-.content-name-specialty p {
+.content-name-specialty p,
+.content-name-courses p {
     font-size: 17px;
     line-height: 23px;
     padding-bottom: 23px;
 }
 
-.content-name-specialty p:last-of-type {
+.content-name-specialty p:last-of-type,
+.content-name-courses p:last-of-type {
     padding-bottom: 0;
 }
 
@@ -834,7 +838,8 @@ input#datepicker::placeholder{
         font-size: 10px;
     }
 
-    .content-name-specialty {
+    .content-name-specialty,
+    .content-name-courses {
         width: 555px;
     }
 
@@ -925,7 +930,8 @@ input#datepicker::placeholder{
         font-size: 11px;
     }
 
-    .content-name-specialty {
+    .content-name-specialty,
+    .content-name-courses {
         width: 380px;
     }
 
@@ -937,7 +943,8 @@ input#datepicker::placeholder{
         font-size: 14px;
     }
 
-    .content-name-specialty p {
+    .content-name-specialty p,
+    .content-name-courses p {
         font-size: 14px;
         line-height: 18px;
         padding-bottom: 18px;
@@ -1057,13 +1064,15 @@ input#datepicker::placeholder{
         width: 100%;
     }
 
-    .name-specialty {
+    .name-specialty,
+    .name-courses {
         -webkit-flex-flow: column;
         -ms-flex-flow: column;
         flex-flow: column;
     }
 
-    .content-name-specialty {
+    .content-name-specialty,
+    .content-name-courses {
         width: 100%;
     }
 
@@ -1112,12 +1121,14 @@ input#datepicker::placeholder{
         margin-top: 25px;
     }
 
-    .content-name-specialty {
+    .content-name-specialty,
+    .content-name-courses {
         margin-top: 20px;
     }
 
     .name-specialty__list-suggestions {
         font-size: 12px;
+    }
 }
 
 @media only screen and (max-width: 700px) {
