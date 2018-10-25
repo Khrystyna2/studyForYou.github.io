@@ -1052,17 +1052,35 @@ table {
 }
 
 .photo-gallery-image {
-    width: 280px;
+    width: 205px;
     margin-right: 20px;
     margin-bottom: 20px;
 }
 
-.photo-gallery-link:nth-of-type(3n) > .photo-gallery-image {
+.photo-gallery-link:nth-of-type(4n) > .photo-gallery-image {
     margin-right: 0;
 }
 
 .left-box {
     width: 300px;
+}
+
+/*page name-universities*/
+
+.name-universities .subtitle-section {
+    margin-top: 0;
+}
+
+.name-universities__slider .img-box {
+    margin: 0 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 150px;
+}
+
+.name-universities__slider .img-box img {
+   max-width: 110px;
 }
 
 
@@ -1149,7 +1167,7 @@ table {
     }
 
     .photo-gallery-image {
-        width: 240px;
+        width: 175px;
         margin-right: 15px;
         margin-bottom: 15px;
     }
@@ -1335,9 +1353,9 @@ table {
     }
 
     .photo-gallery-image {
-        width: 176px;
-        margin-right: 15px;
-        margin-bottom: 15px;
+        width: 130px;
+        margin-right: 10px;
+        margin-bottom: 10px;
     }
 
     .nav-link {
@@ -1503,15 +1521,13 @@ table {
 
     .photo-gallery-image {
         width: 194px;
+        margin-bottom: 14px;
     }
 
     .photo-gallery-link:nth-of-type(2n) > .photo-gallery-image {
         margin-right: 0;
     }
 
-    .photo-gallery-link:nth-of-type(3n) > .photo-gallery-image {
-        margin-right: 15px;
-    }
 }
 
 @media only screen and (max-width: 767.5px) {
@@ -1606,9 +1622,6 @@ table {
         margin-right: 3%;
     }
 
-    .photo-gallery-link:nth-of-type(3n) > .photo-gallery-image {
-        margin-right: 3%;
-    }
 }
 
 @media only screen and (max-width: 450px) {
@@ -1772,18 +1785,6 @@ table {
        width: 100%;
     }
 
-    .photo-gallery-image {
-        width: 290px;
-        margin: 0 auto 15px;
-        display: block;
-    }
-
-    .photo-gallery-link:nth-of-type(3n) > .photo-gallery-image,
-    .photo-gallery-link:nth-of-type(2n) > .photo-gallery-image {
-        margin: 0 auto 15px;
-        display: block;
-    }
-
     .name-secondary-education__header_group-btn {
         position: static;
         margin: 20px auto 0;
@@ -1803,10 +1804,14 @@ table {
         width: 100%;
     }
 
+    .photo-gallery-image {
+        width: 48%;
+        margin-right: 2.5%;
+    }
+
 }
 
 @media only screen and (max-width: 375px) {
-    .photo-gallery-image,
     .name-secondary-education__header > img,
     .image-left > img, 
     .image-right {
