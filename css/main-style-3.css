@@ -1071,6 +1071,255 @@ table {
     margin-top: 0;
 }
 
+.name-universities__header {
+    position: relative;
+    padding-bottom: 35px;
+    margin-bottom: 35px;
+    border-bottom: 1px solid #A1A1A1;
+    align-items: flex-start;
+}
+
+.name-universities__header > img {
+    width: 361px;
+    margin-right: 40px;
+}
+
+
+.name-universities__header_list-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.name-universities__header_list-content ul li {
+    margin-bottom: 10px;
+    color: #9B9B9B;
+    font-weight: 500;
+}
+
+.name-universities__header_list-content ul:first-of-type {
+    margin-right: 80px;
+}
+
+.name-universities__header_list-content ul li > img {
+    width: 14px;
+    height: 14px;
+    margin-right: 6px;
+}
+
+.name-universities__header_list-content ul li > a {
+    text-decoration: underline;
+}
+
+.name-universities__header_list h4 {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+.name-universities__header_group-btn {
+    position: absolute;
+    right: 0;
+    top: 30px;
+}
+
+.name-universities__header_group-btn > a {
+    display: block;
+}
+
+.name-universities__header_group-btn > a.btn-blue {
+    width: 208px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 13px;
+    font-weight: 700;
+    margin-right: 0;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.name-universities__header_group-btn > a.btn-blue:hover {
+    opacity: .8;
+}
+
+.name-universities__header_group-btn > a:first-child {
+    font-size: 17px;
+    font-weight: 500;
+    color: #F4343D;
+    margin-bottom: 21px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid;
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+
+.name-universities__header_group-btn > a:first-child:hover {
+    opacity: .8;
+}
+
+.name-universities__tabs .nav-item{
+    width: 20%;
+}
+
+.tabs-content {
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #F2F2F2;
+    margin-top: 0;
+    padding: 40px 35px;
+}
+
+.padding-left {
+    padding-left: 20px;
+}
+
+.tabs-about-universities__info {
+    width: 100%;
+}
+
+.tabs-about-universities__info > img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.tabs-about-universities__info .worth-knowing {
+    width: 100%;
+}
+
+.tabs-about-universities__desc > p,
+.tabs-content > p {
+    font-size: 17px;
+    line-height: 23px;
+    padding-bottom: 23px;
+}
+
+.tabs-about-universities__desc > p:last-of-type {
+    padding-bottom: 0;
+}
+
+.tabs-about-universities__desc > img {
+    float: right;
+    width: 300px;
+    margin-left: 30px;
+    margin-bottom: 38px;
+}
+
+.name-universities-table {
+    background-color: #fff;
+    margin-bottom: 35px;
+}
+
+.name-universities-table th, 
+.name-universities-table td{ 
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 12px 10px;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    min-width: 80px;
+}
+
+
+.name-universities-table th {
+    padding: 4px 10px;
+ }
+
+.name-universities-table th:first-of-type,
+.name-universities-table td:first-of-type {
+    border-left: none;
+    text-align: left;
+    max-width: 300px;
+    padding-left: 20px;
+}
+
+.name-universities-table th:nth-last-of-type(2),
+.name-universities-table td:nth-last-of-type(2) {
+    border-right: none;
+}
+
+.name-universities-table th:last-of-type,
+.name-universities-table td:last-of-type {
+    border: none;
+    padding: 4px 0 4px 10px;
+}
+
+.name-universities-table .btn-table {
+    width: 198px;
+    display: inline-block;
+    line-height: 50px;
+}
+
+.column-faculty {
+    max-width: 210px !important;
+}
+
+.column-specialty {
+    max-width: 185px;
+    text-align: left !important;
+}
+
+.name-universities__select {
+    font-family: 'Exo 2', sans-serif; 
+    font-weight: 600;
+    margin: 15px 0 35px;
+    align-items: center;
+}
+
+.name-universities__select .select{
+    margin-top: 0;
+    margin-left: 12px;
+}
+
+.name-universities__select .select .jq-selectbox__dropdown {
+    top: 100% !important;
+}
+
+.photo-gallery-universities {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.photo-gallery-universities__title {
+    text-align: center;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 31px;
+    margin-top: 45px;
+    margin-bottom: 35px;
+}
+
+.gallery-image {
+    width: 280px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.gallery-link:nth-of-type(4n) .gallery-image {
+    margin-right: 0;
+}
+
+
+.name-universities__slider  {
+   display: flex;
+   background-color: #fff;
+   border: 1px solid #F2F2F2;
+   padding: 50px;
+}
+
 .name-universities__slider .img-box {
     margin: 0 32px;
     display: flex;
@@ -1081,6 +1330,14 @@ table {
 
 .name-universities__slider .img-box img {
    max-width: 110px;
+}
+
+.name-universities__slider .slick-next {
+    right: 12px;
+}
+
+.name-universities__slider .slick-prev{
+    left: 12px;
 }
 
 
@@ -1179,6 +1436,33 @@ table {
     .nav-link {
         font-size: 14px;
     }
+
+    .name-universities-table th, .name-universities-table td {
+        min-width: 70px;
+    }
+
+    .column-faculty {
+        max-width: 150px !important;
+    }
+
+    .column-specialty {
+        max-width: 170px;
+        text-align: left !important;
+    }
+
+    .name-universities-table .btn-table {
+        width: 150px;
+    }
+
+    .gallery-image {
+        width: 240px;
+    }
+
+    .photo-gallery-universities {
+        width: 100%;
+    }
+
+
 }
 
 @media only screen and (max-width: 1200px) {
@@ -1371,6 +1655,60 @@ table {
         -ms-flex-align: center;
         align-items: center;
     }
+
+    .name-universities__header {
+        padding-bottom: 25px;
+        margin-bottom: 25px;
+    }
+
+    .name-universities__header > img {
+        width: 320px;
+        margin-right: 25px;
+    }
+
+    .name-universities__header_list-content {
+        -webkit-flex-flow: column;
+        -ms-flex-flow: column;
+        flex-flow: column;
+    }
+
+    .name-universities__header_list h4 {
+        width: 75%;
+        font-size: 16px;
+    }
+
+    .name-universities__header_list-content ul:first-of-type {
+        margin-right: 0;
+    }
+
+    .tabs-about-universities__desc > img {
+        float: right;
+        width: 280px;
+        margin-left: 26px;
+        margin-bottom: 10px;
+    }
+
+    .tabs-about-universities__desc > p, .tabs-content > p {
+        font-size: 14px;
+        line-height: 18px;
+        padding-bottom: 14px;
+    }
+
+    .name-universities-table th, .name-universities-table td {
+        min-width: 85px;
+    }
+
+    .column-faculty {
+        min-width: 150px !important;
+    }
+
+    .column-specialty {
+        min-width: 180px !important;
+    }
+
+    .gallery-image {
+        width: 196px;
+    }
 }
 
 @media only screen and (max-width: 991.5px) {
@@ -1528,6 +1866,78 @@ table {
         margin-right: 0;
     }
 
+    .name-universities__header {
+        -webkit-flex-flow: column;
+        -ms-flex-flow: column;
+        flex-flow: column;
+    }
+
+    .name-universities__header_list h4 {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .name-universities__header_list-content {
+        -webkit-flex-flow: row;
+        -ms-flex-flow: row;
+        flex-flow: row;
+    }
+
+    .name-universities__header_list-content ul:first-of-type {
+        margin-right: 85px;
+    }
+
+    .name-universities__header > img {
+        width: 320px;
+        margin-right: 25px;
+        margin-left: 44px;
+    }
+
+    .name-universities__header_group-btn > a.btn-blue {
+        padding-top: 0;
+    }
+
+    .tabs-about-universities__desc > img {
+        float: none;
+        width: 280px;
+        margin: 15px auto;
+        display: block;
+    }
+
+    .name-universities-table th, .name-universities-table td {
+        font-size: 13px;
+    }
+
+    .name-universities-table th:first-of-type, .name-universities-table td:first-of-type {
+        min-width: 250px !important;
+    }
+
+    .name-universities-table td.column-faculty,
+    .name-universities-table th.column-faculty {
+        min-width: 150px !important;
+    }
+
+    .name-universities-table tr:nth-of-type(2) th:first-of-type {
+        min-width: 85px !important;
+    }
+
+    .gallery-image {
+        width: 193px;
+        margin-right: 15px; 
+        margin-bottom: 15px;
+    }
+
+    .gallery-link:nth-of-type(3n) .gallery-image {
+        margin-right: 0;
+    }
+
+    .gallery-link:nth-of-type(4n) .gallery-image {
+        margin-right: 15px;
+    }
+
+    .gallery-link:last-of-type .gallery-image {
+        margin-right: 0;
+    }
 }
 
 @media only screen and (max-width: 767.5px) {
@@ -1575,6 +1985,47 @@ table {
         width: 300px;
         margin: 20px auto 0;
     }
+
+    .name-universities__header > img {
+        margin: 0 auto;
+    }
+
+    .name-universities__header_group-btn {
+        position: static;
+        margin-top: 20px;
+    }
+
+    .tabs-content {
+        padding: 25px 15px;
+    }
+
+    .tabs-about-universities__info {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .name-universities__select .select {
+        width: 250px;
+    }
+
+    .name-universities__slider {
+        padding: 20px 45px;
+    }
+
+    .gallery-image {
+        width: 146px;
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+
+    .photo-gallery-universities__title {
+        text-align: center;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 31px;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
 }
 
 @media only screen and (max-width: 700px) {
@@ -1620,6 +2071,51 @@ table {
     .photo-gallery-image {
         width: 48%;
         margin-right: 3%;
+    }
+
+    .gallery-image {
+        width: 31%;
+        margin-right: 2.5%;
+        margin-bottom: 12px;
+    }
+
+    .gallery-link:nth-of-type(4n) .gallery-image {
+        margin-right: 2.5%;
+    }
+
+    .gallery-link:last-of-type .gallery-image {
+        margin-right: 0;
+    }
+
+    .name-universities__tabs .nav-item {
+        width: 100%;
+    }
+
+    .name-universities__header_list-content {
+        -webkit-flex-flow: column;
+        -ms-flex-flow: column;
+        flex-flow: column;
+    }
+
+    .name-universities__header > img {
+        width: 100%;
+    }
+
+    .name-universities__header_group-btn {
+        margin: 20px auto 0;
+    }
+
+    .name-universities__select {
+        -webkit-flex-flow: column;
+        -ms-flex-flow: column;
+        flex-flow: column;
+        align-items: flex-start;
+    }
+
+    .name-universities__select .select {
+        width: 100%;
+        margin-top: 12px;
+        margin-left: 0;
     }
 
 }
@@ -1761,6 +2257,7 @@ table {
         -ms-flex-flow: column;
         flex-flow: column;
     }
+
 }
 
 @media only screen and (max-width: 426px) {
@@ -1804,9 +2301,19 @@ table {
         width: 100%;
     }
 
-    .photo-gallery-image {
+    .photo-gallery-image,
+    .gallery-image {
         width: 48%;
         margin-right: 2.5%;
+        margin-bottom: 10px;
+    }
+
+    .gallery-link:nth-of-type(3n) .gallery-image {
+        margin-right: 2.5%;
+    }
+
+    .gallery-link:nth-of-type(2n) .gallery-image {
+        margin-right: 0;
     }
 
 }
@@ -1815,6 +2322,10 @@ table {
     .name-secondary-education__header > img,
     .image-left > img, 
     .image-right {
+        width: 100%;
+    }
+
+    .tabs-about-universities__desc > img {
         width: 100%;
     }
 
