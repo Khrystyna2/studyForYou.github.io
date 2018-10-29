@@ -1082,10 +1082,13 @@ table {
 }
 
 .name-universities__header > img {
-    width: 361px;
+    width: 290px;
     margin-right: 40px;
 }
 
+.name-universities__header_list {
+    width: 50%;
+}
 
 .name-universities__header_list-content {
     display: -webkit-box;
@@ -1714,8 +1717,11 @@ table {
     }
 
     .name-universities__header > img {
-        width: 320px;
         margin-right: 25px;
+    }
+
+    .name-universities__header_list {
+        width: 42%;
     }
 
     .name-universities__header_list-content {
@@ -1727,6 +1733,7 @@ table {
     .name-universities__header_list h4 {
         width: 75%;
         font-size: 16px;
+        margin-top: 15px;
     }
 
     .name-universities__header_list-content ul:first-of-type {
@@ -1935,12 +1942,15 @@ table {
         flex-flow: row;
     }
 
+    .name-universities__header_list {
+        width: 100%;
+    }
+
     .name-universities__header_list-content ul:first-of-type {
         margin-right: 85px;
     }
 
     .name-universities__header > img {
-        width: 320px;
         margin-right: 25px;
         margin-left: 44px;
     }
