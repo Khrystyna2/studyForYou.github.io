@@ -304,6 +304,7 @@
     border-top-left-radius: 0;
     border-top-right-radius: 0;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .modal-title {
@@ -421,6 +422,7 @@ input#datepicker::placeholder{
     width: 100%;
     padding-top: 16px;
     padding-left: 22px;
+    resize: none;
 }
 
 .form-questionnaire .group-textarea textarea:focus {
@@ -1340,6 +1342,61 @@ table {
     left: 12px;
 }
 
+/*modal window form-consultation*/
+ 
+
+.form-consultation .group-input{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.form-consultation .group-input input {
+    width: 400px;
+    border-right: 1px solid #C4C4C4; 
+}
+
+.form-consultation .group-input > label {
+    font-weight: 600;
+    font-family: 'Exo 2', sans-serif;    
+}
+
+.form-consultation .group-input .select {
+    min-height: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+    width: 400px;
+}
+
+.form-consultation .group-input .jq-selectbox__dropdown {
+    top: 100%;
+}
+
+
+.form-consultation .group-textarea {
+    width: 100%;
+    font-weight: 600;
+    font-family: 'Exo 2', sans-serif; 
+    text-align: left;
+}
+
+.form-consultation .group-textarea textarea {
+    width: 100%;
+    padding-top: 16px;
+    padding-left: 22px;
+    resize: none;
+}
+
+.form-consultation .group-textarea textarea:focus {
+    outline: none;
+}
+
 
 @media only screen and (max-width: 1400px) {
 
@@ -1938,6 +1995,10 @@ table {
     .gallery-link:last-of-type .gallery-image {
         margin-right: 0;
     }
+
+    .form-consultation .group-input {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 767.5px) {
@@ -2064,6 +2125,18 @@ table {
 
     .form-questionnaire .input-calendar .arrow-select {
         top: 27px;
+    }
+
+    .form-consultation .group-input input,
+    .form-consultation .group-input .select {
+        width: 100%;
+    }
+
+    .form-consultation .group-input {
+        -webkit-flex-flow: column;
+        -ms-flex-flow: column;
+        flex-flow: column;
+        align-items: flex-start;
     }
 }
 
@@ -2314,6 +2387,14 @@ table {
 
     .gallery-link:nth-of-type(2n) .gallery-image {
         margin-right: 0;
+    }
+
+    .modal-header .close {
+        padding: 1rem;
+        margin: -1rem -1rem -1rem auto;
+        position: absolute;
+        right: 12px;
+        top: 0px;
     }
 
 }
