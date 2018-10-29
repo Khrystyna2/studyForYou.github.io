@@ -1235,11 +1235,6 @@ table {
     min-width: 80px;
 }
 
-
-.name-universities-table th {
-    padding: 4px 10px;
- }
-
 .name-universities-table th:first-of-type,
 .name-universities-table td:first-of-type {
     border-left: none;
